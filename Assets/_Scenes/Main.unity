@@ -401,6 +401,24 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &531251583 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 146390, guid: 76b72f31a8784e648ba47be7441288a7, type: 2}
+  m_PrefabInternal: {fileID: 1124303278}
+--- !u!114 &531251584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531251583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aada7a7ab12e1249ac205aa05b49434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveAccel: 300
+  topSpeed: 2
+  distRange: 5
 --- !u!1 &621597696
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,7 +846,20 @@ Prefab:
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 621597697}
-    m_RemovedComponents: []
+    - target: {fileID: 5025524, guid: 76b72f31a8784e648ba47be7441288a7, type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5025524, guid: 76b72f31a8784e648ba47be7441288a7, type: 2}
+      propertyPath: m_Constraints
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6108350, guid: 76b72f31a8784e648ba47be7441288a7, type: 2}
+      propertyPath: m_Density
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11482832, guid: 76b72f31a8784e648ba47be7441288a7, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 76b72f31a8784e648ba47be7441288a7, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1360898885
