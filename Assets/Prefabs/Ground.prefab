@@ -196,9 +196,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aada7a7ab12e1249ac205aa05b49434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAccel: 150
-  topSpeed: 2
-  distRange: 3
+  moveAccel: 400
+  topSpeed: 3
+  distRange: 4
   brakingMultiplier: 3
 --- !u!114 &11425236
 MonoBehaviour:
